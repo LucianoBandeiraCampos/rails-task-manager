@@ -13,4 +13,5 @@
             method: :delete,
             data: { confirm: "Are you sure?" } %>
 
-<p><%= link_to "Back to list", '/tasks' %></p>
+<p><%= link_to "Back to list", tasks_path %></p>
+<p><%= link_to "Edit", edit_task_path(@task) %></p>
